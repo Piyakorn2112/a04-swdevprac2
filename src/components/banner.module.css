@@ -1,0 +1,20 @@
+.banner {
+    display: block;
+    width: 100vw;
+    height: 40vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.bannerText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    text-align: center;
+    width: 80%; 
+    font-size: 1.4em;
+    text-shadow: 0px 10px 10px black;
+}

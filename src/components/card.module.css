@@ -1,0 +1,59 @@
+.card {
+    width: 300px;
+    height: 350px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden; 
+    transition: transform 0.3s ease; 
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cardimg {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.cardtext {
+    color: black;
+    height: 30%;
+    padding: 15px;
+    text-align: left; 
+    font-size: 0.75rem;
+    font-weight: 300; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.cardtext h3 {
+    font-size: 1.2rem; 
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.cardtext p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.cardlocation {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.cardprice {
+    font-size: 1rem;
+    color: #24b200;
+    margin-top: 10px;
+    font-weight: 600;
+}
